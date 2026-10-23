@@ -1,0 +1,18 @@
+# MATLAB editor/backup artifacts
+*.asv
+*.m~
+slprj/
+*.slxc
+
+# Compiled MEX and object files -- wirSetup rebuilds ber_core from source,
+# and a committed binary would be wrong for anyone on another platform.
+*.mexw64
+*.mexa64
+*.mexmaci64
+*.obj
+*.o
+
+# Generated data. The PNGs and the CSV ARE tracked: they are the artifact a
+# reader looks at first. The .mat files are large intermediate state and are
+# regenerated in ~3 minutes by analysis.runAll.
+results/*.mat
